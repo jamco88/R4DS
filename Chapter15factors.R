@@ -1,5 +1,7 @@
 #creating factors - a factor is a type categorical variable that can only take a 1. SPECIFIC  set of 2. ORDERED values
 #you use them when you don't want to be exposed to typos and want to coerce a specific order. rather than a string
+
+install.packages("tidyverse")
 library(readr)
 library(forcats)
 library(tidyverse)
